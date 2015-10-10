@@ -1,0 +1,6 @@
+---
+Archive: CPAN
+Bug-Database: http://rt.cpan.org/Dist/Display.html?Name=Variable-Magic
+Contact: Vincent Pit <perl@profvince.com>
+Name: Variable-Magic
+Repository: http://git.profvince.com/perl/modules/Variable-Magic.git

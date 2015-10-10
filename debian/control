@@ -1,0 +1,29 @@
+Source: libvariable-magic-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Radici <antonio@dyne.org>,
+           Ansgar Burchardt <ansgar@debian.org>,
+           Nathan Handler <nhandler@debian.org>,
+           Jonathan Yu <jawnsy@cpan.org>,
+           Angel Abad <angel@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9.20120312~),
+               perl
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libvariable-magic-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libvariable-magic-perl.git
+Homepage: https://metacpan.org/release/Variable-Magic
+
+Package: libvariable-magic-perl
+Architecture: any
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends}
+Description: module to associate user-defined magic to variables from Perl
+ Variable::Magic is Perl way of enhancing objects. This mechanism lets the user
+ add extra data to any variable and hook syntaxical operations (such as access,
+ assignment or destruction) that can be applied to it.
+ .
+ With this module, you can add your own magic to any variable without having
+ to write a single line of XS.
